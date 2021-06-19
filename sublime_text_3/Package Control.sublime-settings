@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Formatter",
+		"Jedi - Python autocompletion",
+		"Julia",
+		"MarkdownPreview",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-json",
+		"SublimeLinter-pycodestyle",
+		"SublimeLinter-pyflakes",
+		"SublimeLinter-pylint"
+	]
+}
