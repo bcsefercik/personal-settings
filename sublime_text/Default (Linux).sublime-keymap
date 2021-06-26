@@ -1,0 +1,17 @@
+[
+  { "keys": ["ctrl+keypad_divide"], "command": "toggle_comment", "args": { "block": true } },
+  { "keys": ["ctrl+divide"], "command": "toggle_comment", "args": { "block": true } },
+  { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["ctrl+shift+/"], "command": "toggle_comment", "args": { "block": true } },
+  { "keys": ["ctrl+keypad_plus"], "command": "increase_font_size" },
+  { "keys": ["ctrl+plus"], "command": "increase_font_size" },
+  { "keys": ["ctrl+shift+="], "command": "increase_font_size" },
+  { "keys": ["ctrl+="], "command": "increase_font_size" },
+  { "keys": ["ctrl+keypad_minus"], "command": "decrease_font_size" },
+  { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+  { "keys": ["ctrl+shift+o"], "command": "clone_file" },
+  { "keys": ["ctrl+k"], "command": "toggle_inline_diff" },
+  { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } }
+
+]

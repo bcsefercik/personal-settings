@@ -5,16 +5,24 @@
 	],
 	"installed_packages":
 	[
+		"ESLint",
 		"Formatter",
 		"Jedi - Python autocompletion",
 		"Julia",
 		"MarkdownPreview",
+		"Material Monokai",
 		"Package Control",
+		"PackageDev",
+		"RemoteSubl",
+		"rsub",
 		"Rust Enhanced",
+		"SQLTools",
 		"SublimeLinter",
+		"SublimeLinter-contrib-julialint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-json",
 		"SublimeLinter-pycodestyle",
 		"SublimeLinter-pyflakes",
 		"SublimeLinter-pylint"
-	]
+	],
 }
