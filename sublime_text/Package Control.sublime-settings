@@ -16,6 +16,7 @@
 		"RemoteSubl",
 		"rsub",
 		"Rust Enhanced",
+		"RustFmt",
 		"SQLTools",
 		"SublimeLinter",
 		"SublimeLinter-contrib-julialint",
@@ -23,6 +24,6 @@
 		"SublimeLinter-json",
 		"SublimeLinter-pycodestyle",
 		"SublimeLinter-pyflakes",
-		"SublimeLinter-pylint"
+		"SublimeLinter-pylint",
 	],
 }
