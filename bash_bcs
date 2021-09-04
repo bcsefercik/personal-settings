@@ -1,0 +1,31 @@
+venv() {
+    if [ ! -d venv ]; then
+        python3 -m venv venv
+        echo "Created new Python3 virtual environment."
+    fi
+
+    source venv/bin/activate
+}
+
+alias connect_ku='sh ~/connect_ku.sh'
+
+alias ll='ls -ahlF'
+
+alias var='cd ~/Desktop/VA/repos'
+alias ms='cd ~/Desktop/MSc/'
+alias msr='cd ~/Desktop/MSc/repos/'
+alias cor='cd ~/Desktop/Corensis/'
+alias corr='cd ~/Desktop/Corensis/repos/'
+
+alias reto='sudo modprobe -r psmouse && sudo modprobe psmouse'
+alias open='xdg-open'
+alias pil='pip3 install'
+alias lscam='ls -ltrh /dev/video*'
+
+HISTTIMEFORMAT='%d/%m/%y %T '
+
+fortune | cowsay -f `ls /usr/share/cowsay/cows/ | shuf -n 1` | lolcat
+
+eval "$(direnv hook bash)"
+
+

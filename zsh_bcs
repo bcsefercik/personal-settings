@@ -1,0 +1,23 @@
+venv() {
+    if [ ! -d venv ]; then
+        python3 -m venv venv
+        echo "Created new Python3 virtual environment."
+    fi
+
+    source venv/bin/activate
+}
+
+alias ll='ls -ahlF'
+
+alias pil='pip3 install'
+
+alias rextfat='sudo pkill -f fsck'
+
+HISTTIMEFORMAT='%d/%m/%y %T '
+
+fortune | cowsay -f `ls /usr/local/Cellar/cowsay/3.04_1/share/cows | gshuf -n1` | lolcat
+
+eval "$(direnv hook bash)"
+
+
+
