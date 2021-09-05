@@ -12,6 +12,7 @@ alias ll='ls -ahlF'
 alias pil='pip3 install'
 
 alias rextfat='sudo pkill -f fsck'
+alias killlast='kill %1'
 
 HISTTIMEFORMAT='%d/%m/%y %T '
 
