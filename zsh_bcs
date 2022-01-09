@@ -14,11 +14,17 @@ alias pil='pip3 install'
 alias rextfat='sudo pkill -f fsck'
 alias killlast='kill %1'
 
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# dir shortcuts
+alias bcsw="cd $HOME/workspace"
+
 HISTTIMEFORMAT='%d/%m/%y %T '
 
 fortune | cowsay -f `ls /usr/local/Cellar/cowsay/3.04_1/share/cows | gshuf -n1` | lolcat
 
 eval "$(direnv hook bash)"
 
-
-
+export PATH="$HOME/opt/anaconda3/bin":$PATH

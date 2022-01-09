@@ -5,10 +5,11 @@
 	],
 	"installed_packages":
 	[
-		"ESLint",
 		"Formatter",
 		"Jedi - Python autocompletion",
+		"JsPrettier",
 		"Julia",
+		"Markdown Extended",
 		"MarkdownPreview",
 		"Material Monokai",
 		"Package Control",

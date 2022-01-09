@@ -1,3 +1,4 @@
 *.DS_Store*
 sublime_text/formatter.assets/*
 *.user-ca-bundle
+zsh_work

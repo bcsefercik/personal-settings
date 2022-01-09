@@ -1,0 +1,4 @@
+[
+    { "keys": ["ctrl+alt+f"], "command": "js_prettier" },
+    { "keys": ["alt+shift+f"], "command": "reindent"}
+]
