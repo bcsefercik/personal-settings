@@ -19,7 +19,9 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # dir shortcuts
-alias bcsw="cd $HOME/workspace"
+alias bcs="cd $HOME/workspace"
+alias bcsr="cd $HOME/workspace/repos"
+alias bcsdir="ll $HOME/workspace"
 
 HISTTIMEFORMAT='%d/%m/%y %T '
 
@@ -28,3 +30,10 @@ fortune | cowsay -f `ls /usr/local/Cellar/cowsay/3.04_1/share/cows | gshuf -n1` 
 eval "$(direnv hook bash)"
 
 export PATH="$HOME/opt/anaconda3/bin":$PATH
+source $HOME/opt/anaconda3/etc/profile.d/conda.sh
+export PATH=/usr/local/bin:$PATH
+
+
+cevans() {
+    evans --host localhost --port $1 repl -r --header Authorization='Bearer $2'
+}

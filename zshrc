@@ -1,19 +1,3 @@
-
-# # >>> conda initialize >>>
-# # !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/Users/bugra.sefercik/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/Users/bugra.sefercik/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-#         . "/Users/bugra.sefercik/opt/anaconda3/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/Users/bugra.sefercik/opt/anaconda3/bin:$PATH"
-#     fi
-# fi
-# unset __conda_setup
-# # <<< conda initialize <<<
-
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -78,7 +62,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
-export DJANGO_SETTINGS_MODULE=udemy.settings.local
 
 
 export PATH="$HOME/.poetry/bin:$PATH"
@@ -93,7 +76,6 @@ export NVM_DIR="$HOME/.nvm"
 export YVM_DIR=/Users/bugra.sefercik/.yvm
 [ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
 export PATH=$HOME/.luarocks/bin:$PATH
-
 
 source ~/.zprofile
 
