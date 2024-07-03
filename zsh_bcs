@@ -13,7 +13,8 @@ alias pil='pip3 install'
 
 alias rextfat='sudo pkill -f fsck'
 alias killlast='kill %1'
-alias restartmysql='sudo /usr/local/Cellar/mysql@5.7/5.7.38/support-files/mysql.server restart'
+# alias restartmysql='sudo /usr/local/Cellar/mysql@5.7/5.7.38/support-files/mysql.server restart'
+alias restartmysql='brew services restart mysql@5.7'
 
 alias ll='ls -alF'
 alias la='ls -A'
