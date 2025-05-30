@@ -102,11 +102,14 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # dir shortcuts
-alias bcs="cd $HOME/workspace"
-alias bcsr="cd $HOME/workspace/repos"
-alias bcsdir="ll $HOME/workspace"
+alias bcs="cd $HOME/bcs_workspace"
+alias bcsr="cd $HOME/bcs_workspace/repos"
+alias bcsdir="ll $HOME/bcs_workspace"
+alias ws="cd $HOME/workspace"
+alias wsr="cd $HOME/workspace/repos"
+alias wsdir="ll $HOME/workspace"
 
-alias cursor='open -a "Cursor"'
+# alias cursor='open -a "Cursor"'
 
 HISTTIMEFORMAT='%d/%m/%y %T '
 
