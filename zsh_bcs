@@ -74,7 +74,6 @@ export PATH=$HOME/.luarocks/bin:$PATH
 # Oh My Zsh
 plugins=(
     git
-    zsh-syntax-highlighting
 )
 ZSH_THEME="robbyrussell"
 export ZSH="$HOME/.oh-my-zsh"
@@ -110,6 +109,8 @@ alias wsr="cd $HOME/workspace/repos"
 alias wsdir="ll $HOME/workspace"
 
 # alias cursor='open -a "Cursor"'
+
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 HISTTIMEFORMAT='%d/%m/%y %T '
 
