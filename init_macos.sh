@@ -60,7 +60,10 @@ brew install pyenv
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install java 21.0.9-amzn
+sdk install java 21.0.9-tem
 sdk install java 17.0.13-amzn
+sdk install java 17.0.17-tem  
+brew install gradle
 
 #-----------------------------------------------------------------------------
 # 4. SHELL CONFIGURATION
