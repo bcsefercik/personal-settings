@@ -29,6 +29,7 @@ brew install --cask telegram
 brew install --cask rectangle
 brew install --cask raycast
 brew install --cask chatgpt
+brew install --cask microsoft-onenote
 
 # Development
 brew install --cask docker
@@ -37,6 +38,7 @@ brew install --cask visual-studio-code
 brew install --cask sublime-text
 brew install --cask cursor
 brew install --cask postman
+
 
 # Media
 brew install --cask spotify
