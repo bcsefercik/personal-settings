@@ -127,3 +127,16 @@ cevans() {
 
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 export PATH="$HOME/.local/bin:$PATH"
+
+
+alias jbuild25='JAVA_HOME=$HOME/.sdkman/candidates/java/25.0.1-tem ./gradlew clean build'
+
+claude() {
+  setopt LOCAL_OPTIONS NO_HIST_IGNORE_SPACE NO_HIST_SAVE_BY_COPY NO_SHARE_HISTORY
+  unsetopt HIST_BEEP
+  # Don’t record anything while Claude runs
+  setopt HIST_IGNORE_ALL_DUPS
+  fc -p  # push a private history stack (won’t be saved)
+  command claude "$@"
+  fc -P  # pop it
+}
