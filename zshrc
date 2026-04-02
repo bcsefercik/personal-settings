@@ -117,3 +117,9 @@ fpath=($HOME/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
+
+# opencode
+export PATH=/Users/b.sefercik/.opencode/bin:$PATH
+
+# Starship
+eval "$(starship init zsh)"

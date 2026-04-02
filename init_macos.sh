@@ -77,6 +77,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Install zsh-syntax-highlighting
 brew install zsh-syntax-highlighting
 
+# Install Starship prompt
+curl -sS https://starship.rs/install.sh | sh
+echo 'eval "$(starship init zsh)"' >> ~/bcs_settings/zshrc
+
 # Symlink .zshrc to bcs_settings
 rm ~/.zshrc
 ln -s ~/bcs_settings/zshrc ~/.zshrc
