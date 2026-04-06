@@ -54,6 +54,7 @@ brew install dockutil
 
 # Node.js
 brew install node
+brew install go
 
 # Python (pyenv)
 brew install pyenv
@@ -66,6 +67,9 @@ sdk install java 21.0.9-tem
 sdk install java 17.0.13-amzn
 sdk install java 17.0.17-tem  
 brew install gradle
+
+# Shell formatting
+go install mvdan.cc/sh/v3/cmd/shfmt@latest
 
 #-----------------------------------------------------------------------------
 # 4. SHELL CONFIGURATION
